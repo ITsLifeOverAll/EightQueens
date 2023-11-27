@@ -35,7 +35,7 @@ bool TryPosition(bool[,] board, int row, int column)
 
 跑出來的結果，可能會讓你嚇一跳。仔細一看，它的結果並沒有錯。
 
-我們可以把第一排的 "馬"，事先排到第一格，因此，原本的程式變成了：
+我們可以把第 0 排的 "馬"，事先排到第 1 格，因此，原本的程式變成了：
 
 ```cs
 using System.Drawing;
